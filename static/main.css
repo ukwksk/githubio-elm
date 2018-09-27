@@ -1,22 +1,48 @@
+* {
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: #3b94d9;
+}
+
+header {
+  padding: 30px;
+}
+
+#title {
+  width: 175px;
+}
+
+#title a {
+  font-size: 28px;
+  width: 175px;
+  color: #888;
+}
+
+header ul {
+  width: auto;
+  height: 3rem;
+}
+
+header li {
+  width: 80px;
+  float: right;
+}
+header li * {
+  font-size: 20px;
+}
+
 .body-wrapper {
   margin: 30px;
 }
 
 article {
+  height: inherit;
   margin-bottom: 20px;
 }
 
 article>h1 {
   font-size: 28px;
-  border-bottom: 2px;
-  border-bottom-width: thick;
-  border-color: #888;
-}
-
-.content-list li * {
-  font-size: 20px;
-}
-
-a.twitter-timeline {
-  height: 100px;
 }
