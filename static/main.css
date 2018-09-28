@@ -5,7 +5,9 @@ a {
 
 header {
   display: block;
+  overflow: hidden;
   /* height: 60px; */
+  border-bottom: 2px solid #888;
   padding-left: 30px;
   padding-top: 20px;
   padding-right: 30px;
@@ -28,11 +30,13 @@ header {
 }
 
 #menu {
-  display: inline-block;
-  width: auto;
+  display: flex;
+	flex-wrap: wrap;
+  overflow: hidden;
 }
 
 #menu span * {
+  /* display: inline-block; */
   color: #888;
   font-size: 16px;
   text-align: center;
@@ -42,7 +46,7 @@ header {
   width: auto;
   padding: 0.5rem 1rem 0.5rem 1rem;
   margin-right: 1rem;
-  /* margin-bottom: 20px; */
+  margin-bottom: 20px;
   height: 3rem;
   float: left;
 }
@@ -59,6 +63,7 @@ article {
 
 article>h1 {
   font-size: 28px;
+  margin-bottom: 10px;
 }
 
 .embed-wrapper {
