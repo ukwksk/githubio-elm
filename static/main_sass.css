@@ -1,0 +1,97 @@
+header {
+  nav {
+    .brand-logo {
+      padding-left: 30px;
+      padding-right: 30px;
+      color: #888;
+    }
+
+    #nav-desktop {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+
+    .tabs .tab a {
+      color: #888;
+    }
+
+    a {
+      color: #888;
+    }
+
+    i.material-icons {
+      display: inline;
+      font-size: 18px;
+    }
+
+    #nav-mobile {
+      i.material-icons {
+        vertical-align: middle;
+      }
+    }
+
+    #nav-desktop {
+      i.material-icons {
+        vertical-align: middle;
+      }
+    }
+  }
+
+  /* margin-bottom: 20px; */
+}
+
+/* div.header-offset {
+  height: 50px;
+} */
+.header-offset::before {
+  content: "";
+  display: inline-block;
+  height: 30px;
+  margin-top: -30px;
+  vertical-align: top;
+}
+
+main {
+  background-color: #EEE;
+
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .content-list {
+    margin: 0;
+  }
+
+  section {
+    background-color: #EEE;
+    height: 100%;
+    /* padding: 10px 30px 10px 30px; */
+    /* margin-top: 20px; */
+    border-radius: 3px;
+    /* background-color: #FFF; */
+  }
+
+  .card {
+    /* margin: 10px; */
+  }
+
+  .card-title {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #CCC;
+  }
+
+  /*
+  .header-offset::before {
+    content: "";
+    display: inline-block;
+    height: 50px;
+    margin-top: -50px;
+    vertical-align: top;
+  } */
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

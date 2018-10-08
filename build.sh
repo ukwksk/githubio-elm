@@ -1,3 +1,3 @@
 BASE=static
 
-python -mscss < $BASE/main.sass > $BASE/main.css
+python -mscss < $BASE/main_sass.css > $BASE/main.css
